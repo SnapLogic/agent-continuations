@@ -229,3 +229,7 @@ The rejected output will contain the conversation history, and the tool call(s) 
 ### Sample code
 Single layer agent: `account_agent.py` \
 Multi layer agent: `hr_agent_cli.py`
+
+### Implementation Details
+
+[Continuations Implemenation](continuations.md)
