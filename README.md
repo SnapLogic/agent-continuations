@@ -1,6 +1,8 @@
 # agent-continuations
 The SnapLogic Agent Continuations Prototype Framework
+
 ## Topics
+* Presentation
 * Introduction
 * Core components
 * Installation
@@ -11,6 +13,10 @@ The SnapLogic Agent Continuations Prototype Framework
     * Create suspension functions
 * Types of Agent output
 * FAQ
+
+### Presentation
+
+[AI Engineer Presentation](https://youtu.be/ZB7l4uxW3Yo?si=N7UcETb3aCt8ff6w)
 
 ### Introduction
 The target of this framework is to demonstrate the capability of an Agent to resume from suspension, which can be used in scenarios like human-in-the-loop control, or suspend every N turns.
