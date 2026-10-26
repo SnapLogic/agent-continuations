@@ -35,7 +35,7 @@ class Agent:
         
     def request(self, input: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Agents processing lives in this scope only, to maintain statelessness.
+        Agent's processing lives in this scope only, to maintain statelessness.
         """
         messages = self._form_input(input)
         while True:
@@ -149,7 +149,7 @@ class Agent:
         
         This method can be overridden by subclasses to customize model interaction.
         """
-        # Idealy, the model call configurations should be contained its own class
+        # Ideally, the model call configurations should be contained in its own class
         try:
             chat_completion = self.client.chat.completions.create(
                 model=model,
